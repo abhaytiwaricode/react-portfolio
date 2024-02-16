@@ -1,0 +1,42 @@
+/* Navbar Container */
+.navbar {
+  background-color: #6E57E0;
+  color: white;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar List */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Navbar List Items */
+.navbar li {
+  margin-right: 1rem;
+}
+
+/* Navbar Links */
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem; 
+}
+
+/* Navbar Link Hover Effect */
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Portfolio Text */
+.navbar .portfolio-text {
+  margin-right: auto;
+  /*font-weight: bold;*/
+  font-size: larger;
+}

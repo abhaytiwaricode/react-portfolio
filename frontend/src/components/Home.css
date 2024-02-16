@@ -1,0 +1,69 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 50px;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-intro {
+    margin-bottom: 25px;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: -5px;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+h1 {
+    color: #282c34;
+}
+
+.home-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6E57E0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button--primary {
+    background-color: #6E57E0;
+}
+
+.button:hover {
+    background-color: #6E57A0;
+}
+
+.profile-pic-container {
+    margin-left: 20px;
+}
+
+.profile-pic-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
